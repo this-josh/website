@@ -1,0 +1,36 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+
+# Python
+.venv/
+
+# Build caches / coverage
+.cache/
+coverage/
+
+# Local data not for repo
+NAS/
+public/photos/
+
+# Editors / IDE
+.vscode/
+.idea/
+

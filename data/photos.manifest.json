@@ -1,0 +1,25 @@
+{
+  "albums": [
+    {
+      "title": "Generated",
+      "slug": "generated",
+      "private": false,
+      "items": [
+        {
+          "src": "public/photos/sample/full/sample1.jpg",
+          "thumb": "public/photos/sample/thumbs/sample1.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "sample1.jpg"
+        },
+        {
+          "src": "public/photos/sample/full/sample2.jpg",
+          "thumb": "public/photos/sample/thumbs/sample2.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "sample2.jpg"
+        }
+      ]
+    }
+  ]
+}

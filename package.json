@@ -1,0 +1,40 @@
+{
+  "name": "website-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "gallery": "node scripts/build-gallery.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.103.0",
+    "@react-three/fiber": "^8.15.16",
+    "bcrypt": "^5.1.1",
+    "framer-motion": "^10.18.0",
+    "globby": "^14.0.2",
+    "next": "^14.2.12",
+    "next-auth": "^4.24.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharp": "^0.33.2",
+    "three": "^0.160.0",
+    "yet-another-react-lightbox": "^3.12.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  auto_https off
+}
+
+http://localhost {
+  encode gzip
+  reverse_proxy web:3000
+}
+

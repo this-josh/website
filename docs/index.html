@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171812">
+    <meta name="description" content="Photography by Josh Kirk. A refreshed website is coming soon.">
+    <title>Josh Kirk — Photography</title>
+    <style>
+      :root { color-scheme: dark; font-family: Arial, Helvetica, sans-serif; }
+      * { box-sizing: border-box; }
+      html { min-height: 100%; }
+      body { min-height: 100vh; margin: 0; background: #171812; color: #fff; }
+      .page { position: relative; isolation: isolate; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; overflow: hidden; }
+      .photo, .shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+      .photo { z-index: -2; object-fit: cover; object-position: 52% center; }
+      .shade { z-index: -1; background: linear-gradient(90deg, rgba(10, 15, 15, .78) 0%, rgba(10, 15, 15, .43) 48%, rgba(10, 15, 15, .08) 100%), linear-gradient(0deg, rgba(10, 15, 15, .55), transparent 30%); }
+      header, main, footer { width: min(100% - 3rem, 1200px); margin-inline: auto; }
+      header { padding-block: 2rem; font-size: .95rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+      main { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-block: 4rem 7rem; }
+      .eyebrow { margin: 0 0 1.25rem; font-size: .78rem; font-weight: 700; letter-spacing: .24em; text-transform: uppercase; }
+      h1 { max-width: 11ch; margin: 0; font-size: clamp(3.25rem, 8vw, 7.5rem); font-weight: 600; letter-spacing: -.065em; line-height: .99; text-wrap: balance; }
+      .intro { max-width: 34rem; margin: 2rem 0 0; font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.65; text-wrap: pretty; }
+      footer { padding-block: 1.5rem 2rem; border-top: 1px solid rgba(255,255,255,.45); font-size: .82rem; letter-spacing: .04em; }
+      @media (max-width: 650px) {
+        header, main, footer { width: min(100% - 2.5rem, 1200px); }
+        header { padding-block: 1.5rem; }
+        main { padding-block: 5rem; }
+        .photo { object-position: 62% center; }
+        .shade { background: linear-gradient(90deg, rgba(10, 15, 15, .73), rgba(10, 15, 15, .3)), linear-gradient(0deg, rgba(10, 15, 15, .6), transparent 35%); }
+        .intro { max-width: 25rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <img class="photo" src="assets/sunset.jpg" alt="Sun setting over distant hills beneath a warm orange sky">
+      <div class="shade" aria-hidden="true"></div>
+      <header>Josh Kirk</header>
+      <main>
+        <p class="eyebrow">Photography</p>
+        <h1>A new view is coming.</h1>
+        <p class="intro">A refreshed home for my photographs is taking shape. Please check back soon.</p>
+      </main>
+      <footer>Josh Kirk · Photography</footer>
+    </div>
+  </body>
+</html>

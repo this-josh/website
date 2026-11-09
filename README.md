@@ -4,14 +4,14 @@ Next.js (App Router, TS) site with a 3D parallax hero (React Three Fiber), a sta
 
 ## Temporary static holding page
 
-The self-contained page in `docs/` is a simple placeholder for GitHub Pages. It does not require Node, a server-side app, or the Next.js build. To preview it locally:
+The self-contained page in `docs/` is a simple placeholder published at [this-josh.github.io/website](https://this-josh.github.io/website/). GitHub Pages serves the `main` branch's `/docs` folder. It does not require Node, a server-side app, or the Next.js build. To preview it locally:
 
 ```bash
 cd docs
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000`. To publish it later, configure GitHub Pages to serve the `main` branch's `/docs` folder. The domain and DNS are intentionally not configured in this checkout yet.
+Open `http://localhost:8000`. The custom domain and DNS still point to Adobe Portfolio pending the domain cutover.
 
 ## Quick start (Mac)
 
